@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>JV Calculator v4</title>
+  <link rel="stylesheet" href="styles/app.css">
+</head>
+
+<body>
+  <div id="app">
+    <main class="container">
+      <h1 class="title">JV Calculator v4</h1>
+      <form class="calculator-container">
+        <input class="input-numbers" />
+        <div class="buttons">
+          <div class="buttons-operators">
+            <div class="button-column">
+              <button type="button" class="button">
+                7
+              </button>
+              <button type="button" class="button">
+                4
+              </button>
+              <button type="button" class="button">
+                1
+              </button>
+              <button type="button" class="button">
+                ,
+              </button>
+            </div>
+            <div class="button-column">
+              <button type="button" class="button">
+                8
+              </button>
+              <button type="button" class="button">
+                5
+              </button>
+              <button type="button" class="button">
+                2
+              </button>
+              <button type="button" class="button">
+                0
+              </button>
+            </div>
+            <div class="button-column">
+              <button type="button" class="button">
+                9
+              </button>
+              <button type="button" class="button">
+                6
+              </button>
+              <button type="button" class="button">
+                3
+              </button>
+              <button class="button" type="button">
+                /
+              </button>
+            </div>
+            <div class="button-column">
+              <button type="button" class="button del">
+                DEL
+              </button>
+              <button class="button" type="button">
+                +
+              </button>
+              <button class="button" type="button">
+                -
+              </button>
+              <button class="button" type="button">
+                x
+              </button>
+            </div>
+          </div>
+          <div class="button-controllers">
+            <button type="button" class="reset">
+              RESET
+            </button>
+            <button type="submit" class="result">
+              =
+            </button>
+          </div>
+        </div>
+      </form>
+    </main>
+  </div>
+
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>
