@@ -42,6 +42,9 @@
   font-family: Spartan, Roboto, Arial, sans-serif;
   font-weight: 700;
   background: var(--background);
+
+  width: 100%;
+  height: 100%;
 }
 
 .container {
